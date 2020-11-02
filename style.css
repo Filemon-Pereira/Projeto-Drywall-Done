@@ -250,12 +250,13 @@ header{
 .sobre--image > img{
    width: 50%;
 }
-.sobre--text{
+.sobre--text {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 66%;
     border-radius: 8px;
+    box-shadow: 0 0 7px 2px #736f6f;
 }
 .sobre--text > p{
     font-size: 1.5rem;
