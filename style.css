@@ -242,6 +242,8 @@ header{
     display: flex;
     align-items: center;
     height: 78%;
+    box-shadow: 0px 0px 6px 6px #9e9191;
+    border-radius: 1rem;
 }
 .sobre--image{
     text-align: center;
