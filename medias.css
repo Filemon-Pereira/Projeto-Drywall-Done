@@ -262,11 +262,6 @@
     .nav--icon{
         display: block;
     }
-
-    .servicos--img > img {
-        height: 100%;
-        margin: 1rem;
-    }
     .servicos--icon{
         flex-direction: column;
     }

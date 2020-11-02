@@ -191,12 +191,14 @@ header{
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
+    pointer-events: none;
 }
 
 .servicos--img > img {
     width: 7rem;
     margin: 1rem 0 0 1rem;
     height: 100%;
+    pointer-events: none;
 }
 
 .servicos--description{
