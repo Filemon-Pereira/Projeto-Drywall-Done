@@ -192,6 +192,7 @@ header{
 .servicos--img > img {
     width: 30rem;
     max-width: 100%;
+    /* max-height: 100%; */
 }
 .servicos--description{
     padding: 1.25rem;
@@ -238,7 +239,6 @@ header{
     align-items: center;
     height: 78%;
     border-radius: 1rem;
-    margin: 1rem;
 }
 .sobre--image{
     text-align: center;
