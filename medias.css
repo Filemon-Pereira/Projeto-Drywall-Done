@@ -45,12 +45,13 @@
     .servicos > p {
         margin-top: 1rem;
     }
-    
-    .servicos--img > img {
-        width: 100%;
-        max-width: 60%;
-        height: 100%;
-        max-height: 70%;
+
+    .servicos--img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        pointer-events: none;
+        margin: 1.3rem;
     }
 
     .main--container {
@@ -202,6 +203,13 @@
     .servicos--icon{
             width: inherit;
             max-width: 100%;
+    }
+    .servicos--img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        pointer-events: none;
+        margin: 1.3rem;
     }
     .servicos--description > p {
         font-size: 1.60rem;
