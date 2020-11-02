@@ -186,6 +186,13 @@ header{
 .servicos--icon:hover{
     filter: brightness(90%);
 }
+
+.servicos--img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .servicos--img > img{
     height: 80px;
     margin-left: 15px;
