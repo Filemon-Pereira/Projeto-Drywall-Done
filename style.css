@@ -175,7 +175,6 @@ header{
 .servicos--icon{
     margin: 20px 10px;
     display: flex;
-    align-items: center;
     max-width: 44%;
     border-radius: 1rem;
     background: #d6d4d4;
@@ -256,7 +255,8 @@ header{
     align-items: center;
     width: 66%;
     border-radius: 1rem;
-    border: 1.1px solid #767171;
+    border: 1px solid #767171;
+    box-shadow: 0 0 3px 3px #767171;
 }
 .sobre--text > p{
     font-size: 1.5rem;

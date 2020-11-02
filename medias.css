@@ -68,11 +68,7 @@
         width: 100%;
         max-width: 100%;
     }
-    .sobre--description {
-        height: inherit;
-    }
-
-
+    
     .servicos--description > p {
         font-size: 1.5rem;
         font-family: var(--roboto);
@@ -84,8 +80,6 @@
 
     .sobre--container {
         height: inherit;
-        margin: 0 auto;
-        margin-bottom: 1rem;
     }
     .sobre--container > h1 {
         font-size: 2.5rem;
