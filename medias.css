@@ -100,6 +100,7 @@
     }
     .sobre--text {
         padding: 0.5rem;
+        border: 1px solid #767171;
     }
     .sobre--text > p {
         font-size: 1.4rem;
