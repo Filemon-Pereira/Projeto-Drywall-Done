@@ -256,7 +256,7 @@ header{
     align-items: center;
     width: 66%;
     border-radius: 1rem;
-    border: 1rem solid #767171;
+    border: 1px solid #767171;
 }
 .sobre--text > p{
     font-size: 1.5rem;
