@@ -264,7 +264,7 @@
     }
 
     .servicos--img > img {
-        height: 80px;
+        height: 100%;
         margin: 1rem;
     }
     .servicos--icon{

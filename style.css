@@ -178,7 +178,6 @@ header{
     display: flex;
     align-items: center;
     max-width: 44%;
-    background: #D6D4D4;
     border-radius: 1rem;
     background: #d6d4d4;
     transition: all ease 320ms;
@@ -187,16 +186,18 @@ header{
     filter: brightness(90%);
 }
 
-.servicos--img{
+.servicos--img {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.servicos--img > img{
-    height: 80px;
-    margin-left: 15px;
+.servicos--img > img {
+    width: 7rem;
+    margin: 1rem 0 0 1rem;
+    height: 100%;
 }
+
 .servicos--description{
     padding: 1.25rem;
 }
