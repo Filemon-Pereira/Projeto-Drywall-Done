@@ -255,8 +255,8 @@ header{
     flex-direction: column;
     align-items: center;
     width: 66%;
-    border-radius: 8px;
-    box-shadow: 0 0 7px 2px #736f6f;
+    border-radius: 1rem;
+    border: 1rem solid #767171;
 }
 .sobre--text > p{
     font-size: 1.5rem;
