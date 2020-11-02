@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="medias.css">
+    <link rel="icon"       href="favicon.svg" sizes="any" type="image/svg+xml"> 
+    <title>DRYWALL FCP</title>
+</head>
+
+<body>
+    <header>
+        <a name="home"></a>
+        <div class="header">
+            <div class="nav--wraper">
+                <nav class="nav--container">
+                    <div class="nav--logo">
+                        <img src="logo.svg" alt="Drywall DCP">
+                    </div>
+
+                    <div class="menu--list">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#servicos">Serviços</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="nav--icon">
+                    <img src="menu.svg" alt="menu" class="hamburguer">
+                    <img src="cancel.svg" alt="fechar" class="close">
+                </div>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="slider--controls">
+                <div class="slider--control" onclick="goPrev()"><img src="./images/left-arrow.svg" alt="Voltar"></div>
+                <div class="slider--control" onclick="goNext()"><img src="./images/next.svg" alt="Próximo"></div>
+            </div>
+            <div class="slider--width">
+                <div class="slider--item" style="background-image: url('led-amarelo.jpg');"></div>
+                <div class="slider--item" style="background-image: url('led-diferente.jpg');"></div>
+                <div class="slider--item" style="background-image: url('parede-antes.jpg');"></div>
+                <div class="slider--item" style="background-image: url('parede-depois.jpg');"></div>
+                <div class="slider--item" style="background-image: url('sala-escada.jpg');"></div>
+                <div class="slider--item" style="background-image: url('sala-led.jpg');"></div>
+                <div class="slider--item" style="background-image: url('sala-led-abaju.jpg');"></div>
+                <div class="slider--item" style="background-image: url('sala.jpeg');"></div>
+                <div class="slider--item" style="background-image: url('sala-led-teto.jpg');"></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="main">
+        <main class="main--container">
+            <a name="servicos"></a>
+            <div class="servicos">
+                <h1>Serviços</h1>
+                <p>Tudo que você imaginar o drywall pode realizar</p>
+            </div>
+
+            <div class="servicos--icon-container">
+                <div class="servicos--icon">
+                    <div class="servicos--img">
+                        <img src="broca.svg" alt="Furadeira">
+                    </div>
+                    <div class="servicos--description">
+                        <h2>Drywall</h2>
+                        <p>Usado em larga escala em construções residenciais e comerciais, o Drywall é uma tecnologia que substitui a alvenaria convencional em ambientes internos e pode ser utilizado em paredes, revestimentos ou em tetos. Composto por chapas de gesso aparafusadas em estruturas de aço, é um método que não utiliza água, gera poucos resíduos na obra e torna a construção mais rápida, barata e leve. </p>
+                    </div>
+                </div>
+
+                <div class="servicos--icon">
+                    <div class="servicos--img">
+                        <img src="caixa-de-ferramenta.svg" alt="Caixa de ferramentas">
+                    </div>
+                    <div class="servicos--description">
+                        <h2>Acabamento em gesso</h2>
+                        <p>Além da economia de tempo na aplicação e espaço no armazenamento, o gesso é um material quase três vezes mais acessível do que a soma de cimento, areia e cal utilizados no reboco tradicional. Na segunda opção, o custo da mão de obra pode ser ainda maior em função da complexidade do serviço.</p>
+                    </div>
+                </div>
+
+                <div class="servicos--icon">
+                    <div class="servicos--img">
+                        <img src="martelo.svg" alt="Martelo">
+                    </div>
+                    <div class="servicos--description">
+                        <h2>FORRO DE PVC</h2>
+                        <p>O PVC é um material de revestimento que tem sido bastante utilizado nas construções modernas, além de muito acessível, é excelente para fazer o isolamento térmico e acústico dos ambientes. Possibilita um bom isolamento térmico e acústico, ou seja, torna o ambiente mais agradável e aumenta a sensação de bem-estar dos moradores.</p>
+                    </div>
+                </div>
+
+                <div class="servicos--icon">
+                    <div class="servicos--img">
+                        <img src="ferramentas.svg" alt="Ferramentas">
+                    </div>
+                    <div class="servicos--description">
+                        <h2>PLACAS CIMENTICIAS</h2>
+                        <p>Com a placa cimentícia é possível diminuir o tempo da sua reforma ou construção em até 5x. As Placas cimentícias são painéis fabricados em fibrocimento utilizados para construir paredes, fachadas, divisórias, mezaninos, forros, etc. Elas podem ser aplicadas tanto em áreas internas como externas, e se adaptam bem a ambientes secos ou molhados.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <section class="sobre">
+        <a name="sobre"></a>
+        <div class="sobre--container">
+            <h1>Sobre</h1>
+            <div class="sobre--description">
+                <div class="sobre--image">
+                    <img src="minha-foto.png" alt="Marques Sandro">
+                </div>
+                <div class="sobre--text">
+                    <p>Me chamo Marques Sandro, possuo formação em Interpretação de desenho; mecânica e precisão;
+                        Instalação elétrica; construção a seco entre outros. Trabalho a mais de 10 anos na área, com
+                        flexibilidade de horário e pontualidade. Com indicações de clientes anteriores e trabalhando
+                        sempre com amor a profissão.</p>
+                        <a href="https://api.whatsapp.com/send?phone=5511977364249&text=Olá Sandro, gostaria de saber mais sobre seu trabalho" target="_blank">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato">
+        <a name="contato"></a>
+        <div class="contato--container">
+            <div class="contato--title">
+                <h1>ENTRE EM CONTATO E FAÇA UM ORÇAMENTO</h1>
+            </div>
+            <div class="contato--icons">
+                <a href="mailto:profacfc2008@hotmail.com?subject=Orçamento" target="_blank"><img src="btn-email.svg" alt="Email"></a>
+                <a href="https://api.whatsapp.com/send?phone=5511947420798&text=Olá Sandro, gostaria de saber mais sobre seu trabalho" target="_blank"><img src="btn-whatsapp.svg" alt="Whatsapp"></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer--container">
+            <div class="footer-wrapper">
+                <div class="footer--logo">
+                    <img src="logo.svg" alt="DRYWALL FCP">
+                </div>
+                <div class="footer--description">
+                    <p>Todos os direitos reservados desde 29/08/2013</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="menu.js"></script>
+</body>
+
+</html>

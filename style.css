@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2? family = Bree + Serif & family = Roboto: wght @ 400; 500 & display = swap');
+
+:root{
+    font-size: 16px;
+    --bree-serif:  'Bree Serif', serif;
+    --roboto: 'Roboto', sans-serif; 
+}
+* {
+    box-sizing: border-box;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}   
+html, body{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #DFDBDB;
+}
+header{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #DBD9D8;
+}
+.nav--logo{
+    pointer-events: none;
+}
+.nav--wraper{
+    max-width: 1440px;
+    width: 90vw;
+    margin: 0 auto;
+}
+.nav--container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.menu--list{
+    transition: all ease 700ms;
+}
+
+.menu--list > ul{
+    display: flex;
+    list-style-type: none;
+}
+.menu--list  ul > li {
+    padding-left: 5rem;
+}
+.menu--list  ul  li > a {
+    text-decoration: none;
+    color: #000;
+    font-family: var(--bree-serif);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    transition: background-color ease 320ms;
+    border-radius: 0.5rem;
+} 
+.menu--list  ul  li > a:hover{
+    background-color: #000;
+    color: #DBD9D8;
+}
+.nav--icon{
+    position: absolute;
+    right: 5%;
+    top: 1%;
+    display: none;
+}
+.nav--icon > img {
+    width: 40px;
+    height: 40px;
+}
+.hamburguer, .close {
+    right: 5%;
+    position: absolute;
+    display: none;
+}
+/* FIM MENU */
+
+/* SLIDER */
+.slider{
+    flex: 1;
+    overflow: hidden;
+}
+.slider--width{
+    height: 100%;
+    display: flex;
+    transition: all ease 0.3s;
+}
+.slider--item{
+    width: 100vw;
+    height: inherit;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0px 1px 1px #333;
+    font-size: 50px;
+}
+.slider--controls{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider--control{
+    width: 33px;
+    height: 25%;
+    display: flex;
+    background: white;
+    overflow: hidden;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: #DBD9D8;
+    transition: all ease 320ms;
+}
+.slider--control:first-child{
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+.slider--control:nth-child(2){
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+.slider--control:hover{
+    background-color: #DBD9D8;
+    opacity: 0.6;
+    color: #000;
+    
+}
+.slider--control > img{
+    width: 100%;
+}
+/* FIM SLIDR */
+#main{
+    background-color: #DFDBDB;
+}
+.main--container {
+    max-width: 1440px;
+    width: 90vw;
+    margin: 0 auto;
+    height: auto;
+}
+.servicos{
+    padding: 4.3rem 0 1rem;
+}
+.servicos > h1 {
+    font-size: 2.5rem;
+    color: #212353;
+    text-align: center;
+    font-family: var(--bree-serif);
+    text-transform: uppercase;
+}
+.servicos > p {
+    font-size: 1.70rem;
+    font-weight: 500;
+    font-family: var(--roboto);
+    text-align: center;
+    color: #000;
+    margin-top: 1.6rem;
+}
+.servicos--icon-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.servicos--icon{
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    max-width: 44%;
+    background: #D6D4D4;
+    border-radius: 1rem;
+    background: #d6d4d4;
+    transition: all ease 320ms;
+}
+.servicos--icon:hover{
+    filter: brightness(90%);
+}
+.servicos--img > img{
+    height: 80px;
+    margin-left: 15px;
+}
+.servicos--description{
+    padding: 1.25rem;
+}
+.servicos--description > h2 {
+    font-family: var(--bree-serif);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #212353;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+}
+.servicos--description > p {
+    font-size: 1.12rem;
+    font-weight: 500;
+    font-family: var(--roboto);
+    color: #000;
+    margin-top: 0.7rem;
+    line-height: 1.60rem;
+}
+/* FIM SERVIÇOS */
+.sobre{
+    background-color: #D8D4D1;
+}
+.sobre--container{
+    max-width: 1440px;
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+.sobre--container > h1{
+    font-size: 2.5rem;
+    color: #212353;
+    text-align: center;
+    font-family: var(--bree-serif);
+    text-transform: uppercase;
+    padding-top: 4.5rem;
+}
+.sobre--description{
+    display: flex;
+    align-items: center;
+    height: 78%;
+}
+.sobre--image{
+    text-align: center;
+}
+.sobre--image > img{
+   width: 50%;
+}
+.sobre--text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 66%;
+    box-shadow: 0px 0px 6px 6px #9e9191;
+    border-radius: 8px;
+}
+.sobre--text > p{
+    font-size: 1.5rem;
+    font-family: var(--roboto);
+    color: #000;
+    font-weight: 400;
+    line-height: 2.5rem;
+    padding: 2rem;
+}
+.sobre--text > a {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 90%;
+    border: 1px solid #000;
+    font-family: var(--bree-serif);
+    font-size: 1.70rem;
+    margin: 1rem 0 2rem;
+    padding: 2rem;
+    color: #000;
+    background-color: #DADADA;
+    transition: all ease 320ms;
+    border-radius: 0.5rem;
+}
+.sobre--text >a:hover{
+    background-color: #212353;
+    color: #DADADA;
+}
+/* FIM SOBRE */
+.contato{
+    background-color: #D9D5D2;
+    border-radius: 1rem;
+    filter: brightness(97%);
+}
+.contato--container{
+    max-width: 1440px;
+    width: 90vw;
+    margin: 0 auto;
+}
+.contato--title > h1{
+    font-size: 2.5rem;
+    color: #212353;
+    text-align: center;
+    font-family: var(--bree-serif);
+    text-transform: uppercase;
+    padding-top: 4.5rem;
+}
+.contato--icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 3rem;
+    padding: 3rem;
+    transition: all ease 720ms;
+}
+.contato--icons >a:nth-child(1){
+    margin-right: 3rem;
+}
+.contato--icons > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+}
+.contato--icons a > img:hover {
+    margin-top: -1rem;
+} 
+/* FIM CONTATO */
+footer{
+    background-color: #D5D1D0;
+    filter: brightness(90%);
+}
+.footer--container{
+    max-width: 1440px;
+    width: 90vw;
+    margin: 0 auto;
+}
+.footer-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.footer--logo{
+    pointer-events: none;
+}
+.footer--description > p {
+    font-size: 2rem;
+    font-family: var(--bree-serif);
+    color: #000;
+}
